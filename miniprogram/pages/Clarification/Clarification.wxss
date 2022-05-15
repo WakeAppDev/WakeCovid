@@ -1,0 +1,59 @@
+page{
+    height: 100%;
+    /* background-image: linear-gradient(to bottom, #9E7E38 0%,#9E7E38 20%, #ececec 20%,#ececec 100%); */
+    background-color: #ffffff;
+} 
+.topTitle{
+    /*卡片的宽度*/  
+    width: 90%;
+    text-align: center;
+    /*左外边距，这里代表距离最左边的距离*/
+    margin-left: 5%;
+    /*卡片的高度。*/
+    height: 100rpx;
+    padding-top: 50px;
+    font-size: 22px;
+    color:#d6b160;
+    font-style:normal;
+    text-shadow:0.5px 0.5px 0.5px #ececec;
+    font-weight: bold;
+}
+.card{
+    color:#d6b160;
+    /*卡片的宽度*/  
+    width: 90%;
+    /*左外边距，这里代表距离最左边的距离*/
+    margin-left: 5%;
+    /*卡片的高度。*/
+    height: 300rpx;
+    /*背景色，可以自己更换*/
+    background: rgb(255, 255, 255);
+    border-radius:20px;
+    /* radius是卡片的边框的圆润c程度*/
+    margin-top: 30px;
+    /* box-shadow: 5px 5px 5px #FDC314; */
+    box-shadow: 5px 5px 5px #cdcfcf;
+    font-family: Georgia;
+    border: 1px solid #ececec;
+}
+.Pro{
+    font-style: italic;
+    color:rgb(196, 196, 196);
+    text-align: center;
+    margin-top: 30px;
+}
+.decoration{
+    border-bottom: rgb(196, 196, 196) 1px solid;
+    text-align: center;
+    height:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.decoration1{
+    text-align: center;
+    height:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

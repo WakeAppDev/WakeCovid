@@ -1,0 +1,25 @@
+<view class = "Card">
+ <view class="ThirdTitle">美国北卡罗来纳州著名大学</view>
+ <view class="swiper-view">
+ <swiper indicatorDots="{true}" indicator-active-color="#FDC314" class="swiper_container" autoplay="true" circular="true" interval="10000">
+  <block wx:for="{{msgList}}" wx:key="id">
+   <swiper-item>
+    <view class="swiper_item">{{item.title}}</view>
+   </swiper-item>
+  </block>
+ </swiper>
+</view>
+</view>
+
+<view class = "Card">
+ <view class="ThirdTitle">维克森林大学介绍</view>
+ <view class="swiper-view">
+ <swiper indicatorDots="{true}" indicator-active-color="#FDC314" class="swiper_container" autoplay="true" circular="true" interval="10000">
+  <block wx:for="{{List2}}" wx:key="id">
+   <swiper-item>
+    <view class="swiper_item">{{item.title}}</view>
+   </swiper-item>
+  </block>
+ </swiper>
+</view>
+</view>
